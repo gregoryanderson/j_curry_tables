@@ -44,3 +44,5 @@ sortable.sort(function (a, b) {
 sortable.forEach(function (team, index) {
   console.log(`${index + 1}. ${team[0].trim()}, ${team[1]} pts`);
 });
+
+console.log('Thank you!')
